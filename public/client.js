@@ -12,43 +12,6 @@ client.configure(feathers.authentication());
 const loginHTML = `<main class="login container">
 
   <!-- REMOVE MESSAGE BEGIN -->
-
-  <div style="background-color: rgb(4 0 255 / 6%); padding: 15px; border-radius: 10px; margin-top: 10px;">
-    <div class="row">
-      <div class="col-6 push-3 col-3-tablet no-push-tablet text-center">
-        <img src="https://adaptable.io/img/party-popper.svg" style="max-width: 100px;" />
-      </div>
-      <div class="col-12 col-6-tablet text-center">
-        <p style="font-size: 1.5rem">
-          Your app is now running on
-        </p>
-        <img src="https://adaptable.io/img/color lockup.svg" style="max-width: 200px;" />
-      </div>
-      <div class="none inline-tablet col-3-tablet text-center">
-        <img src="https://adaptable.io/img/party-popper.svg" style="max-width: 100px;" />
-      </div>
-    </div>
-
-    <h2 class="font-900 h1 text-center">Check out Your New App!</h2>
-
-    <div class="row">
-      <p class="text-center" style="max-width: 600px; margin: auto">
-        Enter a username and password below and click &quot;Sign up and log in&quot; to use the app.  
-        You can also create a separate account in an private tab to chat with yourself.
-      </p>
-    </div>
-
-    <div class="row">
-      <p class="text-center" style="margin: auto; max-width: 600px">
-        See the <a href="https://adaptable.io/docs/starters/feathers-chat-starter#what-s-next" target="_blank">Feathers Chat Starter Guide</a> for step-by-step
-        instructions on how to deploy a code update, set up environment variables, and more!
-      </p>
-      <p class="text-center">
-        <a target="_blank" href="https://adaptable.io/docs/starters/feathers-chat-starter#what-s-next" style="display: inline-block; background: #363795; padding: 13px 30px; border-radius: 30px; color: #fff; font-size:18px;">Go to the Starter Guide</a>
-      </p>
-    </div>
-  </div>
-
   <!-- REMOVE MESSAGE END -->
 
   <div class="row">
